@@ -39,16 +39,7 @@ const Register = (props) => {
                 props.setIfRegister(true);
                 toast.success(data.message);
             }
-            // if (data.token) {
-            //     // document.cookie = `token=${data.token}`
-            //     localStorage.setItem('jwt', data.token)
-            //     props.setAuth(true)
-            //     toast.success("Register Successfully!")
-            // } else {
-            //     props.setAuth(false)
-            //     toast.error(data)
-            // }
-
+            
         } catch (error) {
             console.error(error.message);
         }
